@@ -11,33 +11,33 @@ export const CardsContainer = () => {
             title: 'Supervisor',
             description:'Monitors activity to identify project roadblocks',
             img:IconSupervisor,
-            color:''
+            color:'bg-Cyan'
         },
         {
             id:2,
             title: 'Team Builder',
             description:'Scans our talent network to create the optimal team for your project',
             img:IconBuilder,
-            color:''
+            color:'bg-Red'
         },
         {
             id:3,
             title: 'Karma',
             description:'Regularly evaluates our talent to ensure quality',
             img:IconKarma,
-            color:''
+            color:'bg-Orange'
         },
         {
             id:4,
             title: 'Calculator',
             description:'Uses data from past projects to provide better delivery estimates',
             img:IconCalculator,
-            color:''
+            color:'bg-Blue'
         }
     ]
 
   return (
-    <section>
+    <section className="flex flex-col gap-6">
         {
             services.map((service) => {
                 return (
