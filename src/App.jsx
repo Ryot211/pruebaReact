@@ -1,10 +1,10 @@
-
+import {Hero} from "./components/hero"
 function App() {
   return (
     <>
-      <h1>FrontEnd</h1>
-
-    </>
+      
+      <Hero/>
+        </>
   )
 }
 
